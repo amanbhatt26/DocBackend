@@ -1,0 +1,13 @@
+{
+  "name": "websockets-backend",
+  "version": "1.0.0",
+  "description": "A Node.js backend application that uses WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.5.1",
+    "yjs": "^13.5.51"
+  }
+}
