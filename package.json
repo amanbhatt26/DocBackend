@@ -4,10 +4,14 @@
   "description": "A Node.js backend application that uses WebSockets",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "dependencies": {
+    "redis": "^4.6.5",
     "ws": "^8.5.1",
     "yjs": "^13.5.51"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
